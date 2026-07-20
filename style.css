@@ -13,6 +13,10 @@ body {
 .navbar_header {
   display: flex;
   justify-content: center;
+   background: #ff6d1f;
+    border-radius: 20px;
+    border: 1px solid white
+ 
 }
 
 .navbar-mobile {
@@ -32,6 +36,9 @@ body {
   display: flex;
   justify-content: space-around;
   min-width: 800px;
+
+
+
   p {
     font-size: 20px;
   }
@@ -44,41 +51,63 @@ body {
   }
   .a:hover {
     text-decoration: underline;
-    color: #c74b08;
+    color: #000000;
     font-size: 22px;
     font-weight: bold;
+     a{
+      color: #000000;
+    }
   }
   .b:hover {
     text-decoration: underline;
-    color: #c74b08;
+color: #000000;
     font-size: 22px;
     font-weight: bold;
+     a{
+      color: #000000;
+    }
   }
   .c:hover {
     text-decoration: underline;
-    color: #c74b08;
+    color: #000000;
     font-size: 22px;
     font-weight: bold;
+     a{
+      color: #000000;
+    }
   }
   .d:hover {
     text-decoration: underline;
-    color: #c74b08;
+    color: #000000;
     font-size: 22px;
     font-weight: bold;
+     a{
+      color: #000000;
+    }
   }
   .e:hover {
+    color: #000000;
     text-decoration: underline;
-    color: #c74b08;
+    
     font-size: 22px;
     font-weight: bold;
+    a{
+      color: #000000;
+    }
   }
+
+
   .f:hover {
     text-decoration: underline;
-    color: #c74b08;
+    color: #000000;
     font-size: 22px;
     font-weight: bold;
+     a{
+      color: #000000;
+    }
   }
 }
+
 
 .container {
   margin-left: 100px;
@@ -157,6 +186,8 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #c74b08;
+ border-radius: 20px ;
+ border: 1px solid white
 }
   .contact-link{
     display:inline-flex;
@@ -272,3 +303,4 @@ body {
   height: 1px;
   border: none;
 }
+
