@@ -89,6 +89,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 50px;
 }
 
 .name {
@@ -199,6 +200,10 @@ body {
 }
 
 
+.c-text{
+  display: block;
+}
+
 
 /* ----------------- MOBILE DEVICES CODE ----------------- */
 @media screen and (max-width: 480px) {
@@ -255,6 +260,11 @@ body {
   .history {
     flex-direction: column;
   }
+  .c-text{
+    display: none;
+  }
+
+
 }
 .hr {
   width: 94%;
