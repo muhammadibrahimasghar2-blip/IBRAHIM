@@ -50,7 +50,7 @@ body {
   }
   .b:hover {
     text-decoration: underline;
-     color: #c74b08;
+    color: #c74b08;
     font-size: 22px;
     font-weight: bold;
   }
@@ -62,13 +62,13 @@ body {
   }
   .d:hover {
     text-decoration: underline;
-   color: #c74b08;
+    color: #c74b08;
     font-size: 22px;
     font-weight: bold;
   }
   .e:hover {
     text-decoration: underline;
-   color: #c74b08;
+    color: #c74b08;
     font-size: 22px;
     font-weight: bold;
   }
@@ -113,8 +113,6 @@ body {
 .history {
   display: flex;
   justify-content: space-between;
-
-
 }
 
 .button {
@@ -144,18 +142,12 @@ body {
   color: #ff6d1f;
 }
 
-
-.sep{
-
-color: #ff6d1f;
-} 
-.number
-{
+.sep {
   color: #ff6d1f;
 }
-
-
-
+.number {
+  color: #ff6d1f;
+}
 
 /* ----------------- MOBILE DEVICES CODE ----------------- */
 @media screen and (max-width: 480px) {
@@ -169,10 +161,8 @@ color: #ff6d1f;
 
   .navbar_header {
     display: none;
-    
   }
-  .nv{
-  
+  .nv {
     color: white;
     text-decoration: none;
   }
@@ -185,8 +175,6 @@ color: #ff6d1f;
     justify-content: start;
     align-items: center;
     border-radius: 42px;
-    
-    
   }
 
   .nbm-links {
@@ -199,7 +187,6 @@ color: #ff6d1f;
     flex-direction: column;
     border-radius: 42px;
     margin-top: 5px;
-
   }
   .burger {
     font-size: 24px;
@@ -214,14 +201,13 @@ color: #ff6d1f;
     width: 100%;
   }
 
-  .history{
+  .history {
     flex-direction: column;
   }
 }
-.hr
-{
-width: 94%;
-    background-color: black;
-     height: 1px;
-    border: none;
+.hr {
+  width: 94%;
+  background-color: black;
+  height: 1px;
+  border: none;
 }
