@@ -148,6 +148,57 @@ body {
 .number {
   color: #ff6d1f;
 }
+.contact
+{
+  margin-top: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c74b08;
+}
+  .contact-link{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    padding:12px 22px;
+    margin:10px;
+    border-radius:50px;
+    text-decoration:none;
+    color:#fff;
+     font-family: "Space Mono", monospace;
+    font-size:16px;
+    font-weight:600;
+    transition:all 0.35s ease;
+    box-shadow:0 8px 25px rgba(0,0,0,.15);
+}
+
+.whatsapp{
+    background:linear-gradient( #222222);
+}
+
+.whatsapp:hover{
+    transform:translateY(-4px);
+    box-shadow:0 12px 30px rgba(37,211,102,.35);
+}
+
+.gmail{
+    background:linear-gradient( #222222);
+      font-family: "Space Mono", monospace;
+}
+
+.gmail:hover{
+    transform:translateY(-4px);
+    box-shadow:0 12px 30px rgba(234,67,53,.35);
+      font-family: "Space Mono", monospace;
+}
+
+.contact-link i{
+    font-size:20px;
+     font-family: "Space Mono", monospace;
+}
+
+
 
 /* ----------------- MOBILE DEVICES CODE ----------------- */
 @media screen and (max-width: 480px) {
